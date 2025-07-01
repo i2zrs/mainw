@@ -4,7 +4,7 @@
 local rs = game:GetService("ReplicatedStorage")
  
 -- 🔧 Change to the pet or seed name you want to spawn
-local spawnName = "Raccoon" -- or "SunflowerSeed", "BatPet", etc.
+local spawnName = "SunflowerSeed" -- or "SunflowerSeed", "BatPet", etc.
  
 local function neroSpawn(name)
     if name:lower():find("seed") then
